@@ -14,7 +14,7 @@ importedQuotes();
 //     "exercise":4,
 //     "firstname":"Alice",
 //     "surname":"in Wonderland",
-//     "haircolor": "blond"
+//     
 // }
 
 
@@ -28,7 +28,7 @@ fs.readFile('./personData.json', (error, data)=>{
 
     personObject.firstname="Ronja"
     personObject.surname="Rövardotter"
-    personObject.haircolor="Brun"
+
 
     updatedObject=JSON.stringify(personObject);
 
